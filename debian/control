@@ -1,0 +1,23 @@
+Source: dark-teal-theme
+Section: x11
+Priority: optional
+Maintainer: Jens John <dev@2ion.de>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.5
+Homepage: https://github.com/bunsenlabs/dark-teal-theme
+Vcs-Browser: https://github.com/bunsenlabs/dark-teal-theme
+Vcs-Git: https://github.com/BunsenLabs/dark-teal-theme.git
+
+Package: dark-teal-theme
+Architecture: all
+Depends: gtk2-engines-murrine, gtk2-engines-pixbuf, libgtk-3-0, ${misc:Depends}
+Recommends: vertex-icons-tweak
+Description: Dark Teal-colored GTK+ 2/3 theme
+ Made by hhh from the Crunchbang forums
+
+Package: vertex-icons-tweak
+Architecture: all
+Recommends: dark-teal-theme
+Description: Modified version of the Vertex icon theme
+  Created by horst3180, modified by hhh from the Crunchbang forums
+

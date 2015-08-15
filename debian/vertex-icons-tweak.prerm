@@ -1,0 +1,11 @@
+#!/bin/sh
+
+set -e
+
+case "$1" in
+  remove|deconfigure)
+    rm -f /usr/share/icons/Vertex-Icons-tweak/icon-theme.cache
+    ;;
+esac
+
+#DEBHELPER#
